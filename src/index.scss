@@ -1,0 +1,14 @@
+@import './carbon';
+@import './ibm-cloud-and-cognitive';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-area {
+  flex: 1 1 100%;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "page-header-example",
+  "main": "src/index.js",
+  "dependencies": {
+    "@carbon/ibm-cloud-cognitive": "0.1.48",
+    "@carbon/icons-react": "10.24.0",
+    "@carbon/layout": "10.17.0",
+    "@carbon/motion": "10.12.0",
+    "@carbon/themes": "10.26.0",
+    "@carbon/type": "10.20.0",
+    "carbon-components-react": "7.27.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "3.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "keywords": [],
+  "description": ""
+}
