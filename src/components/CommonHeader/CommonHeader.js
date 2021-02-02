@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import {
   Header,
   HeaderMenuButton,
@@ -18,7 +18,7 @@ import AppSwitcher20 from "@carbon/icons-react/lib/app-switcher/20";
 import Fade16 from "@carbon/icons-react/lib/fade/16";
 
 export const CommonHeader = ({ className }) => {
-  const [isSideNavExpanded, setIsSideNavExpanded] = useRef(false);
+  const [isSideNavExpanded, setIsSideNavExpanded] = useState(false);
 
   const handleClickSideNavExpand = () => {
     setIsSideNavExpanded(!isSideNavExpanded);

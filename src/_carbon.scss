@@ -1,9 +1,9 @@
-@import '~@carbon/type/scss/type';
-@import '~@carbon/themes/scss/themes';
-@import '~@carbon/layout/scss/layout';
-@import '~@carbon/motion/scss/motion';
-@import '~carbon-components/src/globals/scss/vars';
-@import '~carbon-components/src/globals/scss/mixins';
+@import '@carbon/type/scss/type';
+@import '@carbon/themes/scss/themes';
+@import '@carbon/layout/scss/layout';
+@import '@carbon/motion/scss/motion';
+@import 'carbon-components/src/globals/scss/vars';
+@import 'carbon-components/src/globals/scss/mixins';
 
 $feature-flags: (
   ui-shell: true,
@@ -18,7 +18,7 @@ $css--plex: true;
 // Global styles
 @import '@carbon/type/scss/reset';
 @import 'carbon-components/scss/globals/scss/css--font-face';
-@import '~carbon-components/scss/globals/grid/grid';
+@import 'carbon-components/scss/globals/grid/grid';
 $carbon--theme: $carbon--theme--white;
 
 .carbon-theme--white {
@@ -38,11 +38,10 @@ $carbon--theme: $carbon--theme--white;
 }
 
 // Carbon components
-@import '~carbon-components/scss/components/breadcrumb/breadcrumb';
-@import '~carbon-components/scss/components/button/button';
-@import '~carbon-components/scss/components/data-table/data-table';
-@import '~carbon-components/scss/components/link/link';
-@import '~carbon-components/scss/components/pagination/pagination';
-@import '~carbon-components/scss/components/tabs/tabs';
-@import '~carbon-components/scss/components/ui-shell/ui-shell';
-
+@import 'carbon-components/scss/components/breadcrumb/breadcrumb';
+@import 'carbon-components/scss/components/button/button';
+@import 'carbon-components/scss/components/data-table/data-table';
+@import 'carbon-components/scss/components/link/link';
+@import 'carbon-components/scss/components/pagination/pagination';
+@import 'carbon-components/scss/components/tabs/tabs';
+@import 'carbon-components/scss/components/ui-shell/ui-shell';
