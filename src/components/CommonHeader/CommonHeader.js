@@ -27,15 +27,15 @@ export const CommonHeader = ({ className }) => {
   return (
     <Header aria-label="Carbon Tutorial" className={className}>
       <SkipToContent />
-      <HeaderName to="/" prefix="IBM">
-        Cloud PAK Automation Hub
-      </HeaderName>
       <HeaderMenuButton
         aria-label="Open menu"
         isCollapsible
         onClick={handleClickSideNavExpand}
         isActive={isSideNavExpanded}
       />
+      <HeaderName to="/" prefix="IBM">
+        Cloud PAK Automation Hub
+      </HeaderName>
       <HeaderGlobalBar>
         <HeaderGlobalAction aria-label="Notifications">
           <Notification20 />
