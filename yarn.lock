@@ -1072,10 +1072,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.1":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.1":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.12.5":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
+  integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1117,10 +1124,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.19.0.tgz#b3fe4b8302f5a0d8450d4fe9af36eed40c035426"
   integrity sha512-LrlxOuIrpWQmn8VmSu0VwuT4hRiXmSOtt9Yjs5OKEUuSIxADZFMpY+fJIvMu7q69Y4XeV6XNYrJpIExOfb62iw==
 
-"@carbon/ibm-cloud-cognitive-experimental@^0.19.2":
-  version "0.19.3"
-  resolved "https://registry.yarnpkg.com/@carbon/ibm-cloud-cognitive-experimental/-/ibm-cloud-cognitive-experimental-0.19.3.tgz#5cbd5d9b58914f9506b7119d060f18db384ba46d"
-  integrity sha512-JQDXhQup8q8r4DwO7ra7MpMZGP9JQQs2FGXd+OkEzwXA2C29uSaPh6zf/CNpbky1BkWnhPFkqoIjrrRtx/bx8w==
+"@carbon/ibm-cloud-cognitive-experimental@^0.19.4":
+  version "0.19.4"
+  resolved "https://registry.yarnpkg.com/@carbon/ibm-cloud-cognitive-experimental/-/ibm-cloud-cognitive-experimental-0.19.4.tgz#20f8da91d1fa9e832ceffc2d3c418aea2898e571"
+  integrity sha512-0Z51k1zy1xKOC6y4mCF0GrzH/5OkruJ4NEg/ZBOOMPOoSrOgt9+dGOZPi3S5dbZV1W3FOojF7hdv0LlDoc382A==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@carbon/icons-react" "^10.24.0"
@@ -1130,35 +1137,12 @@
     carbon-icons "^7.0.7"
     react-resize-detector "^5.2.0"
 
-"@carbon/ibm-cloud-cognitive-security@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibm-cloud-cognitive-security/-/ibm-cloud-cognitive-security-0.4.0.tgz#441d0972bac6586ace49d9e340d71f9a71adce1b"
-  integrity sha512-B4/d6BCGhrSpUTm60Ds6XzKmzv/mrKjXrMKPhSz0yFEK56iow88zvZ4SGEhW66KVeFeBS8rskTnVnyee/ayjNg==
-  dependencies:
-    "@babel/runtime" "^7.11.2"
-    "@carbon/icons-react" "^10.23.0"
-    "@carbon/import-once" "^10.3.0"
-    "@carbon/layout" "^10.16.0"
-    "@carbon/themes" "^10.25.0"
-    carbon-components "^10.26.0"
-    carbon-components-react "^7.26.0"
-    carbon-icons "^7.0.7"
-    classnames "^2.2.6"
-
-"@carbon/ibm-cloud-cognitive@0.1.48":
-  version "0.1.48"
-  resolved "https://registry.yarnpkg.com/@carbon/ibm-cloud-cognitive/-/ibm-cloud-cognitive-0.1.48.tgz#d6d7e0ffca9605ba668e9c76599bf94eb7035bf7"
-  integrity sha512-wR9mvTw/gij3wfHs8He2L7wguBNR5jlk1rN3Of+JZCrUd64C0eIG0heC+rYkJ6NA7HE3o3fpzAxDXV/SYmoOfA==
-  dependencies:
-    "@carbon/ibm-cloud-cognitive-experimental" "^0.19.2"
-    "@carbon/ibm-cloud-cognitive-security" "^0.4.0"
-
 "@carbon/icon-helpers@^10.12.0":
   version "10.12.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.12.0.tgz#8bf34bc7fbe81e0dc8c96a107ab0e8a44558f3c4"
   integrity sha512-/jhEFXGKzYtY9FQc0dhobbiIPVLY2V1O3KUxxUTiRM0V3IQ+ti2a9ucXKlvcfj8twIQUdCxAcbN6n5zLqW/fRw==
 
-"@carbon/icons-react@10.24.0", "@carbon/icons-react@^10.23.0", "@carbon/icons-react@^10.24.0":
+"@carbon/icons-react@10.24.0", "@carbon/icons-react@^10.24.0":
   version "10.24.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.24.0.tgz#f58330a4ec130006ecdbab4015dae99fe7fbd24e"
   integrity sha512-L6dp9bK8xZy1SpjQ6xkhh8naTmasqpeg+1DQ9hVkwUs9AOwycC5NQLkyIFYWHhADTO4cPuU1nwY02kDunrbHVA==
@@ -1166,12 +1150,12 @@
     "@carbon/icon-helpers" "^10.12.0"
     prop-types "^15.7.2"
 
-"@carbon/import-once@^10.3.0", "@carbon/import-once@^10.5.0":
+"@carbon/import-once@^10.5.0":
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.5.0.tgz#9a84b50a761aa561ae6600a6c34b9955d97b3fd8"
   integrity sha512-OlyJpA5wJ9XNv/FAogN4TGhwmrdyVYeoJ/ARkcmbdWiXwq4OTCVki9MUlV779+HYseLlXBxtlA1No3/R4Sds0g==
 
-"@carbon/layout@10.17.0", "@carbon/layout@^10.16.0", "@carbon/layout@^10.17.0":
+"@carbon/layout@10.17.0", "@carbon/layout@^10.17.0":
   version "10.17.0"
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.17.0.tgz#de2b80673c0ee13c451adf7060e63b117a87bc30"
   integrity sha512-FS198XBh0dxfjU2GJ35b85gQbnuNFSK8IcpSBsgX7KKSIktwpPy0WV40EGQoZD/qFPIJpzZRngkJWD+d6vhf7w==
@@ -1197,7 +1181,7 @@
     winston "^3.3.3"
     yargs "^16.1.1"
 
-"@carbon/themes@10.26.0", "@carbon/themes@^10.25.0":
+"@carbon/themes@10.26.0":
   version "10.26.0"
   resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.26.0.tgz#61720c0e51ebe6a1121e22d0f764b0d55cf8533d"
   integrity sha512-8S/S3S9l+7lbxGpbz81eoRxOYtloFTMPBZtcOmfUE1bwX3y31hhxc+4hrTCqdS0LQQSDvGebfYxiF7bfiVRFRg==
@@ -2917,7 +2901,7 @@ capture-exit@^2.0.0:
   dependencies:
     rsvp "^4.8.4"
 
-carbon-components-react@7.27.0, carbon-components-react@^7.26.0, carbon-components-react@^7.27.0:
+carbon-components-react@7.27.0, carbon-components-react@^7.27.0:
   version "7.27.0"
   resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.27.0.tgz#1b47f3af4aa138f012d0b6700c032bd14685685f"
   integrity sha512-Qc/GPp0WzQjukK1/s5jZWULfZIZrFouIRm3VFaGJODFr8aPSvUye83s0ZsZiVrzLNaCoTcO2v1PRRfTzm8pyBQ==
@@ -2938,7 +2922,7 @@ carbon-components-react@7.27.0, carbon-components-react@^7.26.0, carbon-componen
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-carbon-components@^10.26.0, carbon-components@^10.27.0:
+carbon-components@^10.27.0:
   version "10.27.0"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.27.0.tgz#b984ee1b87371a64ecd041853993ffc69c9191a0"
   integrity sha512-kDW3ezjfqxTydIMLZ+pTxA3oWsmhET330NTVe47hXeCRsoZ000tq0ZwGbbliSjlW2wY4s5nKxWkMj0b+dkeFyQ==
@@ -3065,7 +3049,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.6, classnames@^2.2.6:
+classnames@2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -7645,7 +7629,7 @@ node-releases@^1.1.52, node-releases@^1.1.70:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.70.tgz#66e0ed0273aa65666d7fe78febe7634875426a08"
   integrity sha512-Slf2s69+2/uAD79pVVQo8uSiC34+g8GWY8UH2Qtqv34ZfhYrxpYpfzs9Js9d6O0mbDmALuxaTlplnBTnSELcrw==
 
-node-sass@4.*:
+node-sass@4.14.1:
   version "4.14.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.14.1.tgz#99c87ec2efb7047ed638fb4c9db7f3a42e2217b5"
   integrity sha512-sjCuOlvGyCJS40R8BscF5vhVlQjNN069NtQ1gSxyK1u9iqvn6tf7O1R4GNowVZfiZUCRt5MmMs1xd+4V/7Yr0g==

@@ -2,7 +2,7 @@
   "name": "page-header-example",
   "main": "src/index.js",
   "dependencies": {
-    "@carbon/ibm-cloud-cognitive": "0.1.48",
+    "@carbon/ibm-cloud-cognitive-experimental": "^0.19.4",
     "@carbon/icons-react": "10.24.0",
     "@carbon/layout": "10.17.0",
     "@carbon/motion": "10.12.0",

@@ -9,6 +9,8 @@
   overflow: hidden;
 }
 
-.content-area {
+.app .content-area {
+  padding: 0;
   flex: 1 1 100%;
+  overflow-y: auto;
 }

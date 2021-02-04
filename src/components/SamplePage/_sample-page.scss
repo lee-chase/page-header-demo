@@ -1,0 +1,20 @@
+@import '../../carbon-settings';
+
+.sample-page__dummy-content {
+  margin-top: $spacing-05;
+}
+
+.sample-page__dummy-content-block {
+  height: 120vh;
+  background: $ui-01;
+  background-clip: content-box;
+}
+
+.sample-page__dummy-content-text {
+  padding: $spacing-05;
+}
+
+.sample-page__status-icon {
+  vertical-align: middle;
+  fill: $support-02;
+}
