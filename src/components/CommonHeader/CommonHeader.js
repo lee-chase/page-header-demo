@@ -34,7 +34,7 @@ export const CommonHeader = ({ className }) => {
         isActive={isSideNavExpanded}
       />
 
-      <HeaderName to="/" prefix="IBM">
+      <HeaderName href="/" prefix="IBM">
         Cloud PAK Automation Hub
       </HeaderName>
 
